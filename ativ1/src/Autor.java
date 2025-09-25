@@ -3,6 +3,7 @@ public class Autor {
     private String nome;
     private String cidade;
     
+    //get e set
     public int getId() {
         return id;
     }
@@ -32,4 +33,19 @@ public class Autor {
         // Construtor cheio - substitui/constroi os valores da classe sem os sets
     }
     
+    //metodos
+    public void salvarAutor() {
+        System.out.println("Autor salvo com sucesso!");
+    }
+    public void alterarAutor() {
+        System.out.println("Autor alterado!");
+    }
+    public void excluirAutor() {
+        System.out.println("Autor excluído!");
+    }
+    public void pesquisarAutor() {
+        System.out.println("Autor pesquisado!");
+    }
+
+
 }

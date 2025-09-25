@@ -2,6 +2,7 @@ public class TipoCapa {
     private int id;
     private String descricao;
 
+    //gets and sets
     public int getId() {
         return id;
     }
@@ -22,5 +23,18 @@ public class TipoCapa {
         this.descricao = descricao;
         // Construtor cheio - substitui/constroi os valores da classe sem os sets
     }
-    
+
+    //metodos
+    public void salvarTipoCapa() {
+        System.out.println("Tipo de capa salvo com sucesso!");
+    }
+    public void alterarTipoCapa() {
+        System.out.println("Tipo de capa alterado!");
+    }
+    public void excluirTipoCapa() {
+        System.out.println("Tipo de capa excluído!");
+    }
+    public void pesquisarTipoCapa() {
+        System.out.println("Tipo de capa pesquisado!");
+    }
 }

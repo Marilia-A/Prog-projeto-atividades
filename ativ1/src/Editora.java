@@ -2,6 +2,7 @@ public class Editora {
     private String nome_editora;
     private int id;
     
+    //gets and sets
     public String getNome_editora() {
         return nome_editora;
     }
@@ -23,5 +24,18 @@ public class Editora {
         this.id = id;
         // Construtor cheio - substitui/constroi os valores da classe sem os sets
     }
-
+   
+    //metodos ilustrativos
+    public void salvarEditora() {
+        System.out.println("Editora salva com sucesso!");
+    }
+    public void alterarEditora() {
+        System.out.println("Editora alterada!");
+    }
+    public void excluirEditora() {
+        System.out.println("Editora excluída!");
+    }
+    public void pesquisarEditora() {
+        System.out.println("Editora pesquisada!");
+    }
 }

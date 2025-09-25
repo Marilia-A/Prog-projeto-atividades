@@ -8,6 +8,7 @@ public class Livro {
     private Editora editora;
     private TipoCapa tipoCapa;
 
+    //get e set
     public int getId() {
         return id;
     }
@@ -70,6 +71,20 @@ public class Livro {
         this.editora = editora;
         this.tipoCapa = tipoCapa;
         // Construtor cheio - substitui/constroi os valores da classe sem os sets
+    }
+
+    //metodos 
+    public void salvarLivro(){
+        System.out.println("Livro salvo!");
+    }
+    public void alterarLivro(){
+        System.out.println("Livro alterado!");
+    }
+    public void excluirLivro(){
+        System.out.println("Livro excluído!");
+    }
+    public void pesquisarLivro(){
+        System.out.println("Livro pesquisado!");
     }
 
 }
