@@ -1,5 +1,5 @@
 public class App {
-    public static void main(String[] args) throws Exception {}
+    public static void main(String[] args) throws Exception {
        Autor autor1 = new Autor(1, "Sarah J Maas", "New York");
       
        Editora editora1 = new Editora ("Galera Record", 1);
