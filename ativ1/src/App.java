@@ -7,8 +7,6 @@ public class App {
        TipoCapa tipoCapa1 = new TipoCapa(1, "Dura");
 
        Livro livro1 = new Livro(1, "Trono de Vidro", "Assassina, Lenda, Heroína.", 1, 400, autor1, editora1, tipoCapa1);
-// int id, String nome, String resenha, int edicao, int npaginas, Autor autor, Editora editora, TipoCapa tipoCapa
-
 
         //metodos
 
